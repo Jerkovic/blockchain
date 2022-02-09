@@ -1,0 +1,20 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start1": "node ./index.js 3001 5001",
+    "start2": "node ./index.js 3002 5002 ws://localhost:5001",
+    "start3": "node ./index.js 3003 5003 ws://localhost:5002,ws://localhost:5001"
+  },
+  "keywords": [],
+  "author": "Erik Lundin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.2",
+    "ws": "^8.4.2"
+  }
+}
